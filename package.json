@@ -1,10 +1,12 @@
 {
   "name": "list2map",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "将list转换为map",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/zxyuling/list2map/issues"
   },
-  "homepage": "https://github.com/zxyuling/list2map#readme"
+  "homepage": "https://github.com/zxyuling/list2map#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@rollup/plugin-babel": "^5.3.1",
+    "rollup": "^2.72.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "rollup-plugin-uglify": "^6.0.4",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  }
 }
