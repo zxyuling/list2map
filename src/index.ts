@@ -22,3 +22,5 @@ const list2map: List2map = (
     return res;
   }, {});
 };
+
+export default list2map;
