@@ -7,3 +7,4 @@ interface List2map {
     };
 }
 declare const list2map: List2map;
+export default list2map;

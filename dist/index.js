@@ -1,1 +1,1 @@
-!function(n){"function"==typeof define&&define.amd&&define(n)}(function(){});
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):(e="undefined"!=typeof globalThis?globalThis:e||self).list2map=n()}(this,function(){"use strict";return function(e,o,i){return void 0===i&&(i=function(e){return e}),e.reduce(function(e,n,t){return o?e[n[o]]=i(n):e[t]=i(n),e},{})}});
